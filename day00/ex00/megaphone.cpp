@@ -22,9 +22,6 @@ int main(int argc, char **argv)
 	}
 	sentence = argv[1];
 	for (int i = 2; i < argc; i++)
-	{
-		sentence += " ";
 		sentence += argv[i];
-	}
 	std::cout << to_upper(sentence) << std::endl;
 }
