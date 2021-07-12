@@ -6,7 +6,7 @@
 class Contact
 {
 	public:
-		int isSet = 0;
+		unsigned int	isSet;
 		std::string firstName;
 		std::string lastName;
 		std::string nickname;

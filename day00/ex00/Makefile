@@ -2,7 +2,7 @@ NAME = megaphone
 SOURCES = megaphone.cpp
 INCLUDES =
 CC = clang++
-FLAGS = -Wall -Werror -Wextra
+FLAGS = -std=c++98 -Wall -Werror -Wextra
 
 .PHONY: all
 all: $(NAME)

@@ -2,6 +2,7 @@
 
 Contact::Contact(void)
 {
+	this->isSet = 0;
 }
 
 Contact::~Contact(void)

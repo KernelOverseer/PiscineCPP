@@ -5,7 +5,7 @@ SRC = tests.cpp\
 
 CC = clang++
 
-FLAGS = -Wall -Werror -Wextra
+FLAGS = -std=c++98 -Wall -Werror -Wextra
 
 OBJ = $(SRC:.cpp=.o)
 

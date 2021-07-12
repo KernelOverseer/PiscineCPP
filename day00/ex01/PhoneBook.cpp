@@ -1,7 +1,8 @@
 #include "PhoneBook.hpp"
 
 PhoneBook::PhoneBook(void)
-{   
+{
+	this->contactCount = 0;
 }
 
 PhoneBook::~PhoneBook(void)
